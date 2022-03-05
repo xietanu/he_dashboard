@@ -27,6 +27,7 @@ app.layout = html.Div(
                     ],
                 )
             ],
+            className="main_content_box",
         ),
     ]
 )

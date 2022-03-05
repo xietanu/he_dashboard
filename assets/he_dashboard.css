@@ -1,3 +1,9 @@
+body {
+    margin: 0px;
+    font-family: Tahoma, sans-serif;
+    background-color: #EFF1F3;
+}
+
 .header_flex {
     display: flex;
     flex-flow: row nowrap;
@@ -17,14 +23,12 @@
 }
 
 .header_container::after {
-    content:"";
+    content: "";
     height: 10px;
     background-color: #2D7DD2;
-    display:block;
+    display: block;
 }
 
-body {
-    margin:0px;
-    font-family: Tahoma, sans-serif;
-    background-color: #EFF1F3;
+.main_content_box {
+    padding: 10px 20px;
 }
