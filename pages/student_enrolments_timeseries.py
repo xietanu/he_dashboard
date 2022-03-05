@@ -1,14 +1,14 @@
 """
 A dashboard page showing a timeseries of student enrolments at universities
 """
-from time import time
-from urllib import response
 from dash import Input, Output, dcc
 from pandas import read_csv
 
 from components.card import card
 from components.main import main
 from components.card_row import card_row
+from components.filter_panel import filter_panel
+from components.dropdown import dropdown
 
 from figures.timeseries import timeseries
 
@@ -26,6 +26,16 @@ def student_enrolment_timeseries():
 
     return main(
         [
+            filter_panel(
+                [
+                    dropdown(
+                        label = "HE Provider",
+                        options= timeseries_data[StudentColumns.HE_PROVIDER_NAME.value].sort_values().unique(),
+                        selected = None,
+                        element_id="HE-provider-selection"
+                    )
+                ]
+            ),
             card_row(content),
         ],
     )
@@ -33,10 +43,14 @@ def student_enrolment_timeseries():
 
 @app.callback(
     Output("student-enrolment-timeseries-content", "children"),
-    Input("url", "pathname"),
+    Input("HE-provider-selection", "value"),
 )
-def update_student_enrolment_timeseries(url=None):
-    dataframe = timeseries_data.groupby(
+def update_student_enrolment_timeseries(selected_university=None):
+    """Update the student enrolment timeseries when a filter is applied"""
+    dataframe = timeseries_data.copy()
+    if selected_university:
+        dataframe = dataframe[dataframe[StudentColumns.HE_PROVIDER_NAME.value] == selected_university]
+    dataframe = dataframe.groupby(
         by=[StudentColumns.ACADEMIC_YEAR.value, StudentColumns.LEVEL_OF_STUDY.value],
         as_index=False,
     )[StudentColumns.NUMBER.value].sum()
