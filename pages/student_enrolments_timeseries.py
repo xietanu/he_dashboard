@@ -9,6 +9,7 @@ from components.main import main
 from components.card_row import card_row
 from components.filter_panel import filter_panel
 from components.dropdown import dropdown
+from components.graph import graph
 
 from figures.timeseries import timeseries
 
@@ -57,4 +58,4 @@ def update_student_enrolment_timeseries(selected_university=None):
 
     visualisation = timeseries(dataframe,StudentColumns.ACADEMIC_YEAR.value,StudentColumns.NUMBER.value,StudentColumns.LEVEL_OF_STUDY.value)
 
-    return [dcc.Graph(id = "student-enrolment-timeseries", responsive=True,figure = visualisation)]
+    return [graph(element_id = "student-enrolment-timeseries", figure = visualisation)]

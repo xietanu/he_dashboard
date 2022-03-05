@@ -25,7 +25,7 @@ app.layout = html.Div(
                 html.Div(
                     [
                         dcc.Location(id="url", refresh=False),
-                        html.Div(["Content goes here"], id="page-content"),
+                        html.Div([], id="page-content"),
                     ],
                 )
             ],
