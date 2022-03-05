@@ -63,7 +63,7 @@ suggestion-mode=yes
 unsafe-load-any-extension=no
 
 
-#init-hook='import sys; sys.path.append("D:/Dropbox/Python/HE_Dashboard")'
+init-hook='import sys; sys.path.append("D:/Dropbox/Python/HE_Dashboard")'
 
 [MESSAGES CONTROL]
 
