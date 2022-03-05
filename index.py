@@ -1,11 +1,11 @@
 """
-Create paths to serve different dashboards.  Add new paths in the display_page callback.
+Index outlining the dashboard's layout and links to pages.
 """
 from dash import dcc, html
 import pandas as pd
 
 from app import app
-
+from components.header import header
 
 data = {
     "Category": ["Category 1", "Category 2", "Category 3"],
@@ -17,7 +17,7 @@ app.title = "Higher Education in the UK"
 
 app.layout = html.Div(
     [
-        html.Div([app.title]),
+        header(app.title),
         html.Div(
             [
                 html.Div(

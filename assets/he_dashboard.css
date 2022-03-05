@@ -1,0 +1,30 @@
+.header_flex {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #141B41;
+    width: 100%;
+}
+
+.header_title {
+    flex: 1 1 50%;
+    text-align: center;
+    margin: 0px;
+    padding: 10px 10px;
+    color: #EFF1F3;
+    font-size: 18pt;
+}
+
+.header_container::after {
+    content:"";
+    height: 10px;
+    background-color: #2D7DD2;
+    display:block;
+}
+
+body {
+    margin:0px;
+    font-family: Tahoma, sans-serif;
+    background-color: #EFF1F3;
+}
