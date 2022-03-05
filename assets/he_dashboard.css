@@ -18,7 +18,7 @@ body {
     text-align: center;
     margin: 0px;
     padding: 10px 10px;
-    color: #EFF1F3;
+    color: #FFFFFF;
     font-size: 18pt;
 }
 
@@ -31,4 +31,34 @@ body {
 
 .main_content_box {
     padding: 10px 20px;
+}
+
+.dashboard_container {
+    display: flex;
+    flex-flow: row nowrap;
+}
+
+.card {
+    padding: 10px;
+    margin: 10px;
+    background-color: #EFF1F3;
+    border-radius: 15px;
+    flex: 1 1 100%;
+}
+
+.card_row {
+    flex: 1 1 100%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: stretch;
+    width: 100%;
+}
+
+.main {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: start;
+    align-items: stretch;
+    height: 100%;
 }
