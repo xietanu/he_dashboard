@@ -10,3 +10,9 @@ class DashboardColours(Enum):
     CONTRAST = "#EFF1F3"
     HIGHLIGHT = "#FF7F11"
     WARNING = "#FF1B1C"
+
+class VisColours(Enum):
+    """Colours to be used in visualisation in the dashboard"""
+
+    PRIMARY = "#2D7DD2"
+    COLOURFUL_SERIES = ["#2D7DD2","#3DDC97","#F5B841","#FF495C"]

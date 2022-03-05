@@ -1,7 +1,7 @@
 body {
     margin: 0px;
     font-family: Tahoma, sans-serif;
-    background-color: #EFF1F3;
+    background-color: #FFFFFF;
 }
 
 .header_flex {
@@ -18,7 +18,7 @@ body {
     text-align: center;
     margin: 0px;
     padding: 10px 10px;
-    color: #FFFFFF;
+    color: #EFF1F3;
     font-size: 18pt;
 }
 
@@ -39,7 +39,7 @@ body {
 }
 
 .card {
-    padding: 10px;
+    padding: 20px;
     margin: 10px;
     background-color: #EFF1F3;
     border-radius: 15px;
