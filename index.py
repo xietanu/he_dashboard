@@ -8,6 +8,7 @@ import pandas as pd
 from app import app
 from components.header import header
 from components.nav_sidebar import generate_nav_sidebar
+from pages.he_performance_indicators import he_performance_indicators
 from pages.student_enrolments_timeseries import student_enrolment_timeseries
 
 data = {
@@ -50,7 +51,7 @@ def display_page(pathname, query_string):
             },
             "/HE-performance-indicators": {
                 "title": "HE performance indications",
-                "page": lambda: student_enrolment_timeseries(),
+                "page": lambda: he_performance_indicators(),
             },
         }
 
