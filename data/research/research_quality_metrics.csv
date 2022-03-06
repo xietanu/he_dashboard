@@ -1,155 +1,309 @@
-Institution code (UKPRN),Institution name,Total quality weighted volume,FTE Category A staff submitted,Quality score,Quality score - Z score,Total quality weighted volume - Z score
-10000291,Anglia Ruskin University,22.4,168.4,0.51,-0.88,-0.48
-10000385,Arts University Bournemouth,1.5,12.1,0.53,-0.77,-0.59
-10000571,Bath Spa University,13.7,74.0,0.6,-0.36,-0.52
-10000824,Bournemouth University,35.4,161.8,0.62,-0.23,-0.41
-10000886,University of Brighton,56.9,209.5,0.71,0.27,-0.29
-10000961,Brunel University London,120.1,576.6,0.66,-0.02,0.04
-10000975,Buckinghamshire New University,2.8,24.0,0.46,-1.2,-0.58
-10001143,Canterbury Christ Church University,18.1,137.0,0.51,-0.88,-0.5
-10001282,University of Northumbria at Newcastle,75.2,342.7,0.64,-0.14,-0.2
-10001478,City University London,110.2,378.3,0.78,0.69,-0.01
-10001726,Coventry University,31.9,152.9,0.65,-0.07,-0.43
-10001883,De Montfort University,46.2,218.2,0.61,-0.31,-0.35
-10002681,Glasgow School of Art,13.7,52.8,0.66,-0.0,-0.52
-10002718,Goldsmiths' College,67.6,238.4,0.72,0.34,-0.24
-10003270,Imperial College London,577.8,1256.9,0.91,1.46,2.46
-10003324,Institute of Cancer Research,49.8,103.1,0.92,1.51,-0.33
-10003614,University of Winchester,9.7,72.6,0.52,-0.86,-0.54
-10003645,King's College London,563.6,1369.0,0.87,1.19,2.39
-10003678,Kingston University,30.2,138.6,0.63,-0.19,-0.44
-10003861,Leeds Beckett University,24.1,201.4,0.43,-1.37,-0.47
-10003863,Leeds Trinity University,1.6,20.1,0.34,-1.86,-0.59
-10003956,Liverpool Hope University,12.9,112.4,0.46,-1.18,-0.53
-10003957,Liverpool John Moores University,57.9,242.6,0.69,0.16,-0.29
-10003958,Liverpool School of Tropical Medicine,12.2,35.2,0.81,0.84,-0.53
-10004048,London Metropolitan University,13.3,80.2,0.57,-0.55,-0.52
-10004063,London School of Economics and Political Science,252.1,532.2,0.89,1.31,0.74
-10004078,London South Bank University,14.7,101.6,0.58,-0.5,-0.52
-10004113,Loughborough University,190.9,645.6,0.76,0.59,0.42
-10004180,Manchester Metropolitan University,68.7,312.7,0.68,0.11,-0.23
-10004351,Middlesex University,51.5,271.8,0.64,-0.14,-0.32
-10004775,Norwich University of the Arts,1.7,7.4,0.58,-0.49,-0.59
-10004797,Nottingham Trent University,48.5,245.9,0.6,-0.38,-0.34
-10004930,Oxford Brookes University,55.0,269.5,0.63,-0.21,-0.3
-10005337,Queen Margaret University Edinburgh,8.9,42.7,0.62,-0.23,-0.55
-10005343,Queen's University Belfast,260.8,868.1,0.78,0.68,0.79
-10005500,Robert Gordon University,13.4,101.6,0.49,-1.03,-0.52
-10005523,Rose Bruford College,0.8,5.9,0.62,-0.25,-0.59
-10005545,Royal Agricultural University,0.4,12.0,0.15,-2.98,-0.59
-10005553,"Royal Holloway, University of London",129.3,378.1,0.82,0.93,0.09
-10005561,Royal Conservatoire of Scotland,4.3,14.8,0.72,0.33,-0.57
-10005700,SRUC,22.9,57.4,0.76,0.58,-0.47
-10005790,Sheffield Hallam University,53.6,226.2,0.69,0.15,-0.31
-10006022,Southampton Solent University,1.8,35.6,0.34,-1.87,-0.59
-10006299,Staffordshire University,9.1,80.8,0.46,-1.2,-0.55
-10006427,University for the Creative Arts,4.8,20.8,0.69,0.14,-0.57
-10006566,The University of West London,2.9,35.7,0.37,-1.69,-0.58
-10006840,University of Birmingham,354.0,1065.3,0.83,0.98,1.28
-10006841,University of Bolton,4.8,49.1,0.41,-1.47,-0.57
-10006842,University of Liverpool,246.2,759.8,0.82,0.91,0.71
-10007114,University of the Highlands and Islands,14.6,68.1,0.72,0.33,-0.52
-10007137,University of Chichester,9.6,51.7,0.53,-0.77,-0.54
-10007138,University of Northampton,8.0,94.2,0.37,-1.71,-0.55
-10007139,University of Worcester,9.8,104.5,0.45,-1.27,-0.54
-10007140,Birmingham City University,26.1,121.9,0.65,-0.06,-0.46
-10007141,University of Central Lancashire,37.9,247.0,0.55,-0.64,-0.39
-10007143,University of Durham,268.0,740.4,0.84,1.05,0.82
-10007144,University of East London,28.7,129.4,0.65,-0.08,-0.44
-10007145,University of Gloucestershire,8.2,56.1,0.51,-0.88,-0.55
-10007146,University of Greenwich,27.1,201.5,0.48,-1.06,-0.45
-10007147,University of Hertfordshire,34.7,191.6,0.61,-0.33,-0.41
-10007148,University of Huddersfield,47.7,233.7,0.62,-0.23,-0.34
-10007149,University of Hull,74.1,355.5,0.65,-0.1,-0.2
-10007150,University of Kent,176.2,591.3,0.75,0.52,0.34
-10007151,University of Lincoln,32.6,177.3,0.58,-0.48,-0.42
-10007152,University of Bedfordshire,28.0,152.8,0.54,-0.73,-0.45
-10007154,University of Nottingham,491.5,1404.4,0.82,0.92,2.01
-10007155,University of Portsmouth,62.8,281.9,0.67,0.02,-0.26
-10007156,University of Salford,41.2,242.4,0.58,-0.48,-0.38
-10007157,University of Sheffield,386.9,1043.1,0.87,1.18,1.45
-10007158,University of Southampton,407.2,1113.0,0.86,1.13,1.56
-10007159,University of Sunderland,15.0,147.2,0.4,-1.54,-0.52
-10007160,University of Surrey,131.7,458.8,0.79,0.75,0.1
-10007161,Teesside University,14.8,87.2,0.63,-0.19,-0.52
-10007162,"University of the Arts, London",38.6,109.7,0.85,1.07,-0.39
-10007163,University of Warwick,367.0,930.7,0.87,1.23,1.35
-10007164,"University of the West of England, Bristol",64.1,299.3,0.64,-0.11,-0.26
-10007165,University of Westminster,50.8,210.1,0.66,-0.02,-0.33
-10007166,University of Wolverhampton,22.3,169.8,0.48,-1.1,-0.48
-10007167,University of York,243.5,642.9,0.85,1.06,0.69
-10007657,Writtle College,0.4,12.4,0.42,-1.44,-0.59
-10007713,York St John University,6.7,68.2,0.4,-1.52,-0.56
-10007759,Aston University,65.6,199.4,0.79,0.76,-0.25
-10007760,Birkbeck College,101.7,327.8,0.76,0.54,-0.06
-10007761,Courtauld Institute of Art,17.1,32.5,0.96,1.73,-0.5
-10007762,Glasgow Caledonian University,30.2,153.0,0.64,-0.13,-0.44
-10007764,Heriot-Watt University,113.5,352.4,0.84,1.0,0.01
-10007765,Heythrop College,4.0,15.8,0.63,-0.18,-0.57
-10007767,Keele University,71.3,266.9,0.73,0.38,-0.22
-10007768,Lancaster University,216.3,579.8,0.84,1.04,0.55
-10007769,London Business School,49.4,98.8,0.87,1.22,-0.33
-10007771,London School of Hygiene & Tropical Medicine,129.5,313.7,0.8,0.8,0.09
-10007772,Edinburgh Napier University,16.4,98.9,0.58,-0.47,-0.51
-10007773,Open University,106.7,396.2,0.74,0.43,-0.03
-10007774,University of Oxford,1115.0,2409.3,0.88,1.28,5.31
-10007775,Queen Mary University of London,252.7,670.8,0.87,1.22,0.74
-10007776,Roehampton University,39.3,149.0,0.69,0.17,-0.39
-10007777,Royal College of Art,22.4,59.6,0.82,0.91,-0.48
-10007778,Royal College of Music,5.0,14.4,0.77,0.61,-0.57
-10007779,Royal Veterinary College,38.1,103.5,0.81,0.88,-0.39
-10007780,School of Oriental and African Studies,62.5,234.2,0.7,0.19,-0.26
-10007782,"St.George's, University of London",17.7,55.7,0.7,0.23,-0.5
-10007783,University of Aberdeen,175.9,597.2,0.77,0.65,0.34
-10007784,University College London,1078.0,2565.6,0.84,1.04,5.11
-10007785,University of Bradford,36.2,123.7,0.77,0.6,-0.4
-10007786,University of Bristol,435.7,1137.7,0.85,1.06,1.71
-10007788,University of Cambridge,950.9,2087.6,0.88,1.28,4.44
-10007789,University of East Anglia,157.8,455.1,0.84,1.02,0.24
-10007790,University of Edinburgh,685.3,1753.1,0.84,1.04,3.03
-10007791,University of Essex,112.6,339.0,0.79,0.73,0.0
-10007792,University of Exeter,248.2,736.2,0.83,0.99,0.72
-10007793,University of South Wales,20.0,117.0,0.55,-0.68,-0.49
-10007794,University of Glasgow,382.1,1099.4,0.83,0.95,1.43
-10007795,University of Leeds,413.3,1149.1,0.84,1.04,1.59
-10007796,University of Leicester,182.9,671.6,0.77,0.64,0.37
-10007798,University of Manchester,588.1,1561.2,0.84,1.03,2.52
-10007799,Newcastle University,307.9,888.0,0.8,0.82,1.03
-10007800,University of the West of Scotland,15.0,118.2,0.5,-0.93,-0.52
-10007801,University of Plymouth,80.0,366.1,0.68,0.1,-0.17
-10007802,University of Reading,186.6,590.0,0.79,0.77,0.39
-10007803,University of St Andrews,186.3,518.7,0.83,0.99,0.39
-10007804,University of Stirling,89.6,300.9,0.75,0.53,-0.12
-10007805,University of Strathclyde,181.2,558.0,0.81,0.84,0.36
-10007806,University of Sussex,158.9,500.8,0.78,0.67,0.25
-10007807,University of Ulster,129.4,448.7,0.74,0.47,0.09
-10007811,Bishop Grosseteste University,0.9,11.0,0.35,-1.8,-0.59
-10007812,University of London Institute in Paris,0.1,3.0,0.47,-1.14,-0.59
-10007814,Cardiff University,308.1,737.7,0.88,1.28,1.04
-10007816,Royal Central School of Speech and Drama,7.9,21.2,0.74,0.43,-0.55
-10007822,Cranfield University,71.8,223.8,0.81,0.86,-0.21
-10007823,Edge Hill University,17.0,138.5,0.49,-1.01,-0.5
-10007825,Guildhall School of Music & Drama,3.6,16.0,0.62,-0.24,-0.58
-10007832,Newman University,2.2,23.3,0.39,-1.6,-0.58
-10007833,Glyndŵr University,3.0,33.9,0.43,-1.35,-0.58
-10007835,Royal Academy of Music,3.4,13.9,0.64,-0.12,-0.58
-10007837,Royal Northern College of Music,3.9,10.8,0.77,0.64,-0.57
-10007842,University of Cumbria,2.6,26.8,0.36,-1.78,-0.58
-10007843,"St Mary's University, Twickenham",5.6,44.9,0.46,-1.19,-0.57
-10007848,University of Chester,13.1,138.4,0.4,-1.53,-0.53
-10007849,University of Abertay Dundee,6.4,66.5,0.37,-1.7,-0.56
-10007850,University of Bath,169.8,461.5,0.88,1.29,0.3
-10007851,University of Derby,9.8,106.8,0.39,-1.62,-0.54
-10007852,University of Dundee,133.6,395.8,0.77,0.64,0.11
-10007854,Cardiff Metropolitan University,10.7,35.0,0.81,0.86,-0.54
-10007855,Swansea University,128.2,369.7,0.82,0.88,0.08
-10007856,Aberystwyth University,84.5,316.8,0.7,0.23,-0.15
-10007857,Bangor University,71.8,233.0,0.79,0.74,-0.21
-10007858,University of Wales Trinity Saint David,6.3,40.4,0.52,-0.86,-0.56
-10008010,Stranmillis University College,1.0,5.0,0.61,-0.31,-0.59
-10008017,Trinity Laban Conservatoire of Music and Dance,2.8,11.6,0.74,0.44,-0.58
-10008026,St Mary's University College,0.0,3.0,0.0,-3.87,-0.6
-10008574,University of Wales,3.5,12.4,0.69,0.16,-0.58
-10008640,Falmouth University,5.0,50.4,0.37,-1.73,-0.57
-10040812,Harper Adams University,2.9,17.0,0.56,-0.6,-0.58
-ZZZZZZZZ,Institute of Zoology,6.5,20.9,0.9,1.38,-0.56
+,Institution code (UKPRN),Institution name,Metric,Value
+0,10000291,Anglia Ruskin University,Quality score - Z score,-0.88
+1,10000291,Anglia Ruskin University,Total quality weighted volume - Z score,-0.48
+2,10000385,Arts University Bournemouth,Total quality weighted volume - Z score,-0.59
+3,10000385,Arts University Bournemouth,Quality score - Z score,-0.77
+4,10000571,Bath Spa University,Quality score - Z score,-0.36
+5,10000571,Bath Spa University,Total quality weighted volume - Z score,-0.52
+6,10000824,Bournemouth University,Quality score - Z score,-0.23
+7,10000824,Bournemouth University,Total quality weighted volume - Z score,-0.41
+8,10000886,University of Brighton,Quality score - Z score,0.27
+9,10000886,University of Brighton,Total quality weighted volume - Z score,-0.29
+10,10000961,Brunel University London,Total quality weighted volume - Z score,0.04
+11,10000961,Brunel University London,Quality score - Z score,-0.02
+12,10000975,Buckinghamshire New University,Total quality weighted volume - Z score,-0.58
+13,10000975,Buckinghamshire New University,Quality score - Z score,-1.2
+14,10001143,Canterbury Christ Church University,Total quality weighted volume - Z score,-0.5
+15,10001143,Canterbury Christ Church University,Quality score - Z score,-0.88
+16,10001282,University of Northumbria at Newcastle,Quality score - Z score,-0.14
+17,10001282,University of Northumbria at Newcastle,Total quality weighted volume - Z score,-0.2
+18,10001478,City University London,Quality score - Z score,0.69
+19,10001478,City University London,Total quality weighted volume - Z score,-0.01
+20,10001726,Coventry University,Total quality weighted volume - Z score,-0.43
+21,10001726,Coventry University,Quality score - Z score,-0.07
+22,10001883,De Montfort University,Total quality weighted volume - Z score,-0.35
+23,10001883,De Montfort University,Quality score - Z score,-0.31
+24,10002681,Glasgow School of Art,Quality score - Z score,-0.0
+25,10002681,Glasgow School of Art,Total quality weighted volume - Z score,-0.52
+26,10002718,Goldsmiths' College,Total quality weighted volume - Z score,-0.24
+27,10002718,Goldsmiths' College,Quality score - Z score,0.34
+28,10003270,Imperial College London,Total quality weighted volume - Z score,2.46
+29,10003270,Imperial College London,Quality score - Z score,1.46
+30,10003324,Institute of Cancer Research,Quality score - Z score,1.51
+31,10003324,Institute of Cancer Research,Total quality weighted volume - Z score,-0.33
+32,10003614,University of Winchester,Total quality weighted volume - Z score,-0.54
+33,10003614,University of Winchester,Quality score - Z score,-0.86
+34,10003645,King's College London,Quality score - Z score,1.19
+35,10003645,King's College London,Total quality weighted volume - Z score,2.39
+36,10003678,Kingston University,Quality score - Z score,-0.19
+37,10003678,Kingston University,Total quality weighted volume - Z score,-0.44
+38,10003861,Leeds Beckett University,Quality score - Z score,-1.37
+39,10003861,Leeds Beckett University,Total quality weighted volume - Z score,-0.47
+40,10003863,Leeds Trinity University,Total quality weighted volume - Z score,-0.59
+41,10003863,Leeds Trinity University,Quality score - Z score,-1.86
+42,10003956,Liverpool Hope University,Quality score - Z score,-1.18
+43,10003956,Liverpool Hope University,Total quality weighted volume - Z score,-0.53
+44,10003957,Liverpool John Moores University,Total quality weighted volume - Z score,-0.29
+45,10003957,Liverpool John Moores University,Quality score - Z score,0.16
+46,10003958,Liverpool School of Tropical Medicine,Total quality weighted volume - Z score,-0.53
+47,10003958,Liverpool School of Tropical Medicine,Quality score - Z score,0.84
+48,10004048,London Metropolitan University,Quality score - Z score,-0.55
+49,10004048,London Metropolitan University,Total quality weighted volume - Z score,-0.52
+50,10004063,London School of Economics and Political Science,Total quality weighted volume - Z score,0.74
+51,10004063,London School of Economics and Political Science,Quality score - Z score,1.31
+52,10004078,London South Bank University,Quality score - Z score,-0.5
+53,10004078,London South Bank University,Total quality weighted volume - Z score,-0.52
+54,10004113,Loughborough University,Total quality weighted volume - Z score,0.42
+55,10004113,Loughborough University,Quality score - Z score,0.59
+56,10004180,Manchester Metropolitan University,Total quality weighted volume - Z score,-0.23
+57,10004180,Manchester Metropolitan University,Quality score - Z score,0.11
+58,10004351,Middlesex University,Total quality weighted volume - Z score,-0.32
+59,10004351,Middlesex University,Quality score - Z score,-0.14
+60,10004775,Norwich University of the Arts,Total quality weighted volume - Z score,-0.59
+61,10004775,Norwich University of the Arts,Quality score - Z score,-0.49
+62,10004797,Nottingham Trent University,Total quality weighted volume - Z score,-0.34
+63,10004797,Nottingham Trent University,Quality score - Z score,-0.38
+64,10004930,Oxford Brookes University,Total quality weighted volume - Z score,-0.3
+65,10004930,Oxford Brookes University,Quality score - Z score,-0.21
+66,10005337,Queen Margaret University Edinburgh,Quality score - Z score,-0.23
+67,10005337,Queen Margaret University Edinburgh,Total quality weighted volume - Z score,-0.55
+68,10005343,Queen's University Belfast,Quality score - Z score,0.68
+69,10005343,Queen's University Belfast,Total quality weighted volume - Z score,0.79
+70,10005500,Robert Gordon University,Quality score - Z score,-1.03
+71,10005500,Robert Gordon University,Total quality weighted volume - Z score,-0.52
+72,10005523,Rose Bruford College,Quality score - Z score,-0.25
+73,10005523,Rose Bruford College,Total quality weighted volume - Z score,-0.59
+74,10005545,Royal Agricultural University,Quality score - Z score,-2.98
+75,10005545,Royal Agricultural University,Total quality weighted volume - Z score,-0.59
+76,10005553,"Royal Holloway, University of London",Total quality weighted volume - Z score,0.09
+77,10005553,"Royal Holloway, University of London",Quality score - Z score,0.93
+78,10005561,Royal Conservatoire of Scotland,Quality score - Z score,0.33
+79,10005561,Royal Conservatoire of Scotland,Total quality weighted volume - Z score,-0.57
+80,10005700,SRUC,Quality score - Z score,0.58
+81,10005700,SRUC,Total quality weighted volume - Z score,-0.47
+82,10005790,Sheffield Hallam University,Total quality weighted volume - Z score,-0.31
+83,10005790,Sheffield Hallam University,Quality score - Z score,0.15
+84,10006022,Southampton Solent University,Total quality weighted volume - Z score,-0.59
+85,10006022,Southampton Solent University,Quality score - Z score,-1.87
+86,10006299,Staffordshire University,Total quality weighted volume - Z score,-0.55
+87,10006299,Staffordshire University,Quality score - Z score,-1.2
+88,10006427,University for the Creative Arts,Quality score - Z score,0.14
+89,10006427,University for the Creative Arts,Total quality weighted volume - Z score,-0.57
+90,10006566,The University of West London,Total quality weighted volume - Z score,-0.58
+91,10006566,The University of West London,Quality score - Z score,-1.69
+92,10006840,University of Birmingham,Total quality weighted volume - Z score,1.28
+93,10006840,University of Birmingham,Quality score - Z score,0.98
+94,10006841,University of Bolton,Total quality weighted volume - Z score,-0.57
+95,10006841,University of Bolton,Quality score - Z score,-1.47
+96,10006842,University of Liverpool,Quality score - Z score,0.91
+97,10006842,University of Liverpool,Total quality weighted volume - Z score,0.71
+98,10007114,University of the Highlands and Islands,Quality score - Z score,0.33
+99,10007114,University of the Highlands and Islands,Total quality weighted volume - Z score,-0.52
+100,10007137,University of Chichester,Total quality weighted volume - Z score,-0.54
+101,10007137,University of Chichester,Quality score - Z score,-0.77
+102,10007138,University of Northampton,Quality score - Z score,-1.71
+103,10007138,University of Northampton,Total quality weighted volume - Z score,-0.55
+104,10007139,University of Worcester,Quality score - Z score,-1.27
+105,10007139,University of Worcester,Total quality weighted volume - Z score,-0.54
+106,10007140,Birmingham City University,Total quality weighted volume - Z score,-0.46
+107,10007140,Birmingham City University,Quality score - Z score,-0.06
+108,10007141,University of Central Lancashire,Total quality weighted volume - Z score,-0.39
+109,10007141,University of Central Lancashire,Quality score - Z score,-0.64
+110,10007143,University of Durham,Total quality weighted volume - Z score,0.82
+111,10007143,University of Durham,Quality score - Z score,1.05
+112,10007144,University of East London,Total quality weighted volume - Z score,-0.44
+113,10007144,University of East London,Quality score - Z score,-0.08
+114,10007145,University of Gloucestershire,Quality score - Z score,-0.88
+115,10007145,University of Gloucestershire,Total quality weighted volume - Z score,-0.55
+116,10007146,University of Greenwich,Quality score - Z score,-1.06
+117,10007146,University of Greenwich,Total quality weighted volume - Z score,-0.45
+118,10007147,University of Hertfordshire,Quality score - Z score,-0.33
+119,10007147,University of Hertfordshire,Total quality weighted volume - Z score,-0.41
+120,10007148,University of Huddersfield,Quality score - Z score,-0.23
+121,10007148,University of Huddersfield,Total quality weighted volume - Z score,-0.34
+122,10007149,University of Hull,Quality score - Z score,-0.1
+123,10007149,University of Hull,Total quality weighted volume - Z score,-0.2
+124,10007150,University of Kent,Total quality weighted volume - Z score,0.34
+125,10007150,University of Kent,Quality score - Z score,0.52
+126,10007151,University of Lincoln,Quality score - Z score,-0.48
+127,10007151,University of Lincoln,Total quality weighted volume - Z score,-0.42
+128,10007152,University of Bedfordshire,Total quality weighted volume - Z score,-0.45
+129,10007152,University of Bedfordshire,Quality score - Z score,-0.73
+130,10007154,University of Nottingham,Quality score - Z score,0.92
+131,10007154,University of Nottingham,Total quality weighted volume - Z score,2.01
+132,10007155,University of Portsmouth,Total quality weighted volume - Z score,-0.26
+133,10007155,University of Portsmouth,Quality score - Z score,0.02
+134,10007156,University of Salford,Total quality weighted volume - Z score,-0.38
+135,10007156,University of Salford,Quality score - Z score,-0.48
+136,10007157,University of Sheffield,Quality score - Z score,1.18
+137,10007157,University of Sheffield,Total quality weighted volume - Z score,1.45
+138,10007158,University of Southampton,Quality score - Z score,1.13
+139,10007158,University of Southampton,Total quality weighted volume - Z score,1.56
+140,10007159,University of Sunderland,Quality score - Z score,-1.54
+141,10007159,University of Sunderland,Total quality weighted volume - Z score,-0.52
+142,10007160,University of Surrey,Quality score - Z score,0.75
+143,10007160,University of Surrey,Total quality weighted volume - Z score,0.1
+144,10007161,Teesside University,Total quality weighted volume - Z score,-0.52
+145,10007161,Teesside University,Quality score - Z score,-0.19
+146,10007162,"University of the Arts, London",Total quality weighted volume - Z score,-0.39
+147,10007162,"University of the Arts, London",Quality score - Z score,1.07
+148,10007163,University of Warwick,Total quality weighted volume - Z score,1.35
+149,10007163,University of Warwick,Quality score - Z score,1.23
+150,10007164,"University of the West of England, Bristol",Total quality weighted volume - Z score,-0.26
+151,10007164,"University of the West of England, Bristol",Quality score - Z score,-0.11
+152,10007165,University of Westminster,Total quality weighted volume - Z score,-0.33
+153,10007165,University of Westminster,Quality score - Z score,-0.02
+154,10007166,University of Wolverhampton,Quality score - Z score,-1.1
+155,10007166,University of Wolverhampton,Total quality weighted volume - Z score,-0.48
+156,10007167,University of York,Total quality weighted volume - Z score,0.69
+157,10007167,University of York,Quality score - Z score,1.06
+158,10007657,Writtle College,Total quality weighted volume - Z score,-0.59
+159,10007657,Writtle College,Quality score - Z score,-1.44
+160,10007713,York St John University,Total quality weighted volume - Z score,-0.56
+161,10007713,York St John University,Quality score - Z score,-1.52
+162,10007759,Aston University,Total quality weighted volume - Z score,-0.25
+163,10007759,Aston University,Quality score - Z score,0.76
+164,10007760,Birkbeck College,Total quality weighted volume - Z score,-0.06
+165,10007760,Birkbeck College,Quality score - Z score,0.54
+166,10007761,Courtauld Institute of Art,Total quality weighted volume - Z score,-0.5
+167,10007761,Courtauld Institute of Art,Quality score - Z score,1.73
+168,10007762,Glasgow Caledonian University,Quality score - Z score,-0.13
+169,10007762,Glasgow Caledonian University,Total quality weighted volume - Z score,-0.44
+170,10007764,Heriot-Watt University,Quality score - Z score,1.0
+171,10007764,Heriot-Watt University,Total quality weighted volume - Z score,0.01
+172,10007765,Heythrop College,Quality score - Z score,-0.18
+173,10007765,Heythrop College,Total quality weighted volume - Z score,-0.57
+174,10007767,Keele University,Total quality weighted volume - Z score,-0.22
+175,10007767,Keele University,Quality score - Z score,0.38
+176,10007768,Lancaster University,Quality score - Z score,1.04
+177,10007768,Lancaster University,Total quality weighted volume - Z score,0.55
+178,10007769,London Business School,Quality score - Z score,1.22
+179,10007769,London Business School,Total quality weighted volume - Z score,-0.33
+180,10007771,London School of Hygiene & Tropical Medicine,Total quality weighted volume - Z score,0.09
+181,10007771,London School of Hygiene & Tropical Medicine,Quality score - Z score,0.8
+182,10007772,Edinburgh Napier University,Total quality weighted volume - Z score,-0.51
+183,10007772,Edinburgh Napier University,Quality score - Z score,-0.47
+184,10007773,Open University,Quality score - Z score,0.43
+185,10007773,Open University,Total quality weighted volume - Z score,-0.03
+186,10007774,University of Oxford,Quality score - Z score,1.28
+187,10007774,University of Oxford,Total quality weighted volume - Z score,5.31
+188,10007775,Queen Mary University of London,Quality score - Z score,1.22
+189,10007775,Queen Mary University of London,Total quality weighted volume - Z score,0.74
+190,10007776,Roehampton University,Total quality weighted volume - Z score,-0.39
+191,10007776,Roehampton University,Quality score - Z score,0.17
+192,10007777,Royal College of Art,Total quality weighted volume - Z score,-0.48
+193,10007777,Royal College of Art,Quality score - Z score,0.91
+194,10007778,Royal College of Music,Quality score - Z score,0.61
+195,10007778,Royal College of Music,Total quality weighted volume - Z score,-0.57
+196,10007779,Royal Veterinary College,Total quality weighted volume - Z score,-0.39
+197,10007779,Royal Veterinary College,Quality score - Z score,0.88
+198,10007780,School of Oriental and African Studies,Quality score - Z score,0.19
+199,10007780,School of Oriental and African Studies,Total quality weighted volume - Z score,-0.26
+200,10007782,"St.George's, University of London",Quality score - Z score,0.23
+201,10007782,"St.George's, University of London",Total quality weighted volume - Z score,-0.5
+202,10007783,University of Aberdeen,Quality score - Z score,0.65
+203,10007783,University of Aberdeen,Total quality weighted volume - Z score,0.34
+204,10007784,University College London,Quality score - Z score,1.04
+205,10007784,University College London,Total quality weighted volume - Z score,5.11
+206,10007785,University of Bradford,Total quality weighted volume - Z score,-0.4
+207,10007785,University of Bradford,Quality score - Z score,0.6
+208,10007786,University of Bristol,Total quality weighted volume - Z score,1.71
+209,10007786,University of Bristol,Quality score - Z score,1.06
+210,10007788,University of Cambridge,Quality score - Z score,1.28
+211,10007788,University of Cambridge,Total quality weighted volume - Z score,4.44
+212,10007789,University of East Anglia,Total quality weighted volume - Z score,0.24
+213,10007789,University of East Anglia,Quality score - Z score,1.02
+214,10007790,University of Edinburgh,Quality score - Z score,1.04
+215,10007790,University of Edinburgh,Total quality weighted volume - Z score,3.03
+216,10007791,University of Essex,Quality score - Z score,0.73
+217,10007791,University of Essex,Total quality weighted volume - Z score,0.0
+218,10007792,University of Exeter,Quality score - Z score,0.99
+219,10007792,University of Exeter,Total quality weighted volume - Z score,0.72
+220,10007793,University of South Wales,Total quality weighted volume - Z score,-0.49
+221,10007793,University of South Wales,Quality score - Z score,-0.68
+222,10007794,University of Glasgow,Total quality weighted volume - Z score,1.43
+223,10007794,University of Glasgow,Quality score - Z score,0.95
+224,10007795,University of Leeds,Total quality weighted volume - Z score,1.59
+225,10007795,University of Leeds,Quality score - Z score,1.04
+226,10007796,University of Leicester,Quality score - Z score,0.64
+227,10007796,University of Leicester,Total quality weighted volume - Z score,0.37
+228,10007798,University of Manchester,Quality score - Z score,1.03
+229,10007798,University of Manchester,Total quality weighted volume - Z score,2.52
+230,10007799,Newcastle University,Total quality weighted volume - Z score,1.03
+231,10007799,Newcastle University,Quality score - Z score,0.82
+232,10007800,University of the West of Scotland,Quality score - Z score,-0.93
+233,10007800,University of the West of Scotland,Total quality weighted volume - Z score,-0.52
+234,10007801,University of Plymouth,Quality score - Z score,0.1
+235,10007801,University of Plymouth,Total quality weighted volume - Z score,-0.17
+236,10007802,University of Reading,Quality score - Z score,0.77
+237,10007802,University of Reading,Total quality weighted volume - Z score,0.39
+238,10007803,University of St Andrews,Total quality weighted volume - Z score,0.39
+239,10007803,University of St Andrews,Quality score - Z score,0.99
+240,10007804,University of Stirling,Quality score - Z score,0.53
+241,10007804,University of Stirling,Total quality weighted volume - Z score,-0.12
+242,10007805,University of Strathclyde,Total quality weighted volume - Z score,0.36
+243,10007805,University of Strathclyde,Quality score - Z score,0.84
+244,10007806,University of Sussex,Total quality weighted volume - Z score,0.25
+245,10007806,University of Sussex,Quality score - Z score,0.67
+246,10007807,University of Ulster,Total quality weighted volume - Z score,0.09
+247,10007807,University of Ulster,Quality score - Z score,0.47
+248,10007811,Bishop Grosseteste University,Quality score - Z score,-1.8
+249,10007811,Bishop Grosseteste University,Total quality weighted volume - Z score,-0.59
+250,10007812,University of London Institute in Paris,Quality score - Z score,-1.14
+251,10007812,University of London Institute in Paris,Total quality weighted volume - Z score,-0.59
+252,10007814,Cardiff University,Quality score - Z score,1.28
+253,10007814,Cardiff University,Total quality weighted volume - Z score,1.04
+254,10007816,Royal Central School of Speech and Drama,Total quality weighted volume - Z score,-0.55
+255,10007816,Royal Central School of Speech and Drama,Quality score - Z score,0.43
+256,10007822,Cranfield University,Quality score - Z score,0.86
+257,10007822,Cranfield University,Total quality weighted volume - Z score,-0.21
+258,10007823,Edge Hill University,Total quality weighted volume - Z score,-0.5
+259,10007823,Edge Hill University,Quality score - Z score,-1.01
+260,10007825,Guildhall School of Music & Drama,Quality score - Z score,-0.24
+261,10007825,Guildhall School of Music & Drama,Total quality weighted volume - Z score,-0.58
+262,10007832,Newman University,Total quality weighted volume - Z score,-0.58
+263,10007832,Newman University,Quality score - Z score,-1.6
+264,10007833,Glyndŵr University,Quality score - Z score,-1.35
+265,10007833,Glyndŵr University,Total quality weighted volume - Z score,-0.58
+266,10007835,Royal Academy of Music,Total quality weighted volume - Z score,-0.58
+267,10007835,Royal Academy of Music,Quality score - Z score,-0.12
+268,10007837,Royal Northern College of Music,Total quality weighted volume - Z score,-0.57
+269,10007837,Royal Northern College of Music,Quality score - Z score,0.64
+270,10007842,University of Cumbria,Total quality weighted volume - Z score,-0.58
+271,10007842,University of Cumbria,Quality score - Z score,-1.78
+272,10007843,"St Mary's University, Twickenham",Quality score - Z score,-1.19
+273,10007843,"St Mary's University, Twickenham",Total quality weighted volume - Z score,-0.57
+274,10007848,University of Chester,Total quality weighted volume - Z score,-0.53
+275,10007848,University of Chester,Quality score - Z score,-1.53
+276,10007849,University of Abertay Dundee,Total quality weighted volume - Z score,-0.56
+277,10007849,University of Abertay Dundee,Quality score - Z score,-1.7
+278,10007850,University of Bath,Total quality weighted volume - Z score,0.3
+279,10007850,University of Bath,Quality score - Z score,1.29
+280,10007851,University of Derby,Quality score - Z score,-1.62
+281,10007851,University of Derby,Total quality weighted volume - Z score,-0.54
+282,10007852,University of Dundee,Total quality weighted volume - Z score,0.11
+283,10007852,University of Dundee,Quality score - Z score,0.64
+284,10007854,Cardiff Metropolitan University,Total quality weighted volume - Z score,-0.54
+285,10007854,Cardiff Metropolitan University,Quality score - Z score,0.86
+286,10007855,Swansea University,Total quality weighted volume - Z score,0.08
+287,10007855,Swansea University,Quality score - Z score,0.88
+288,10007856,Aberystwyth University,Total quality weighted volume - Z score,-0.15
+289,10007856,Aberystwyth University,Quality score - Z score,0.23
+290,10007857,Bangor University,Total quality weighted volume - Z score,-0.21
+291,10007857,Bangor University,Quality score - Z score,0.74
+292,10007858,University of Wales Trinity Saint David,Total quality weighted volume - Z score,-0.56
+293,10007858,University of Wales Trinity Saint David,Quality score - Z score,-0.86
+294,10008010,Stranmillis University College,Total quality weighted volume - Z score,-0.59
+295,10008010,Stranmillis University College,Quality score - Z score,-0.31
+296,10008017,Trinity Laban Conservatoire of Music and Dance,Quality score - Z score,0.44
+297,10008017,Trinity Laban Conservatoire of Music and Dance,Total quality weighted volume - Z score,-0.58
+298,10008026,St Mary's University College,Total quality weighted volume - Z score,-0.6
+299,10008026,St Mary's University College,Quality score - Z score,-3.87
+300,10008574,University of Wales,Total quality weighted volume - Z score,-0.58
+301,10008574,University of Wales,Quality score - Z score,0.16
+302,10008640,Falmouth University,Total quality weighted volume - Z score,-0.57
+303,10008640,Falmouth University,Quality score - Z score,-1.73
+304,10040812,Harper Adams University,Total quality weighted volume - Z score,-0.58
+305,10040812,Harper Adams University,Quality score - Z score,-0.6
+306,ZZZZZZZZ,Institute of Zoology,Quality score - Z score,1.38
+307,ZZZZZZZZ,Institute of Zoology,Total quality weighted volume - Z score,-0.56

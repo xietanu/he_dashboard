@@ -118,18 +118,29 @@ def extract_research_quality_metrics():
     ) / quality_weighted_volume_std
 
     ref_2014_table_output[
-        [REFColumns.QUALITY_WEIGHTED_VOLUME.value, REFColumns.FTE_STAFF.value]
+        [REFColumns.QUALITY_SCORE_Z.value, REFColumns.QUALITY_WEIGHTED_VOLUME_Z.value]
     ] = round(
         ref_2014_table_output[
-            [REFColumns.QUALITY_WEIGHTED_VOLUME.value, REFColumns.FTE_STAFF.value]
+            [
+                REFColumns.QUALITY_SCORE_Z.value,
+                REFColumns.QUALITY_WEIGHTED_VOLUME_Z.value,
+            ]
         ],
-        1,
-    )
-
-    ref_2014_table_output.loc[:,REFColumns.QUALITY_SCORE.value :] = round(
-        ref_2014_table_output.loc[:,REFColumns.QUALITY_SCORE.value :],
         2,
     )
+
+    ref_2014_table_output = ref_2014_table_output.reset_index().melt(
+        id_vars=[
+            REFColumns.HE_PROVIDER_CODE.value,
+            REFColumns.HE_PROVIDER_NAME.value,
+        ],
+        value_vars=[
+            REFColumns.QUALITY_SCORE_Z.value,
+            REFColumns.QUALITY_WEIGHTED_VOLUME_Z.value,
+        ],
+        var_name = 'Metric',
+        value_name = 'Value',
+    ).sort_values(by = REFColumns.HE_PROVIDER_CODE.value,ignore_index = True)
 
     ref_2014_table_output.to_csv("research_quality_metrics.csv")
 
