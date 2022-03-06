@@ -65,43 +65,38 @@ body {
     justify-content: start;
     align-items: stretch;
     height: 100%;
-    width:100%;
+    width: 100%;
 }
 
 .nav_sidebar {
     flex: 0 0 250px;
 }
 
-ul.nav_sidebar_items{
+ul.nav_sidebar_items {
     list-style-type: none;
     margin: 0;
     padding: 10px 0px 10px 0px;
-    
 }
 
-li.nav_sidebar_item{
-    padding:5px 5px 5px 14px;
+li.nav_sidebar_item {
+    padding: 5px 5px 5px 14px;
 }
 
-li.nav_sidebar_active_item{
+li.nav_sidebar_active_item {
     border-left: 4px solid #2D7DD2;
-    padding:5px 5px 5px 10px;
+    padding: 5px 5px 5px 10px;
     font-weight: bold;
 }
 
 a.nav_sidebar_link:link, a.nav_sidebar_link:visited {
     color: black;
-    
     text-decoration: none;
-    
-    
 }
 
 a.nav_sidebar_link:hover, a.nav_sidebar_link:active {
     border-bottom: 2px solid #141B41;
     padding: 3px 0px
 }
-
 
 .page_content {
     flex: 1 1 100%;
