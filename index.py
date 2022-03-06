@@ -7,6 +7,7 @@ import pandas as pd
 
 from app import app
 from components.header import header
+from components.nav_sidebar import generate_nav_sidebar
 from pages.student_enrolments_timeseries import student_enrolment_timeseries
 
 data = {
@@ -22,17 +23,14 @@ app.layout = html.Div(
         header(app.title),
         html.Div(
             [
-                html.Div(
-                    [
-                        dcc.Location(id="url", refresh=False),
-                        html.Div([], id="page-content"),
-                    ],
-                )
+                dcc.Location(id="url", refresh=False),
+                html.Div([], id="page-content", className="page_content"),
             ],
             className="main_content_box",
         ),
     ]
 )
+
 
 @app.callback(
     Output("page-content", "children"),
@@ -45,7 +43,15 @@ def display_page(pathname, query_string):
         paths = {
             "/": {
                 "page": lambda: student_enrolment_timeseries(),
-            }
+            },
+            "/student-enrolment-timeseries": {
+                "title": "Student enrolments",
+                "page": lambda: student_enrolment_timeseries(),
+            },
+            "/HE-performance-indicators": {
+                "title": "HE performance indications",
+                "page": lambda: student_enrolment_timeseries(),
+            },
         }
 
         for path, route in paths.items():
@@ -53,9 +59,10 @@ def display_page(pathname, query_string):
                 return [
                     html.Div(
                         [
+                            generate_nav_sidebar(paths, path),
                             route["page"](),
                         ],
-                        className='dashboard-container'
+                        className="dashboard_container",
                     ),
                 ]
 
@@ -63,4 +70,4 @@ def display_page(pathname, query_string):
         raise exception
 
     page_not_found = "404"
-    return page_not_found
+    return [page_not_found]
