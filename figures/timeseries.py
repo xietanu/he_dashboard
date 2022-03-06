@@ -2,17 +2,13 @@ from plotly import express as px
 
 from styles.colours import VisColours
 
-def timeseries(
-    dataframe,
-    xaxis,
-    yaxis,
-    group
-):
+
+def timeseries(dataframe, xaxis, yaxis, group):
     fig = px.line(
         dataframe,
-        x = xaxis,
-        y = yaxis,
-        color = group,
+        x=xaxis,
+        y=yaxis,
+        color=group,
         color_discrete_sequence=VisColours.COLOURFUL_SERIES.value,
     )
 

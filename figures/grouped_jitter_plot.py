@@ -37,8 +37,8 @@ def grouped_jitter_plot(
 
     for color, selected_uni in enumerate(selected_unis):
         selected_uni_df = dataframe[
-        (dataframe[metrics_column].isin(metrics_to_plot))
-        & (dataframe[name_column] == selected_uni)
+            (dataframe[metrics_column].isin(metrics_to_plot))
+            & (dataframe[name_column] == selected_uni)
         ]
         fig.add_trace(
             go.Box(
@@ -51,7 +51,11 @@ def grouped_jitter_plot(
                 pointpos=0,
                 orientation="h",
                 text=selected_uni_df[name_column],
-                marker={"color": VisColours.COLOURFUL_SERIES.value[color+1], "opacity": 1, 'size': 10},
+                marker={
+                    "color": VisColours.COLOURFUL_SERIES.value[color + 1],
+                    "opacity": 1,
+                    "size": 10,
+                },
                 hoveron="points",
             )
         )

@@ -18,7 +18,7 @@ def nav_sidebar(links):
     return html.Nav(
         html.Ul(
             links,
-            className='nav_sidebar_items',
+            className="nav_sidebar_items",
         ),
         role="navigation",
         className="nav_sidebar",
@@ -29,6 +29,10 @@ def nav_sidebar_link(text: str, href: str, active=False):
     """A link to another dashboard
     If active, indicate this to the user"""
     return html.Li(
-        dcc.Link(text, href=href,className='nav_sidebar_link',),
-        className='nav_sidebar_item' + (' nav_sidebar_active_item' if active else ''),
+        dcc.Link(
+            text,
+            href=href,
+            className="nav_sidebar_link",
+        ),
+        className="nav_sidebar_item" + (" nav_sidebar_active_item" if active else ""),
     )

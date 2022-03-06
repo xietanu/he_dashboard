@@ -10,5 +10,6 @@ def card_row(cards: list) -> html.Div:
     or accesses the dashboard from a mobile device.
     """
     return html.Div(
-        cards, className="card_row",
+        cards,
+        className="card_row",
     )
