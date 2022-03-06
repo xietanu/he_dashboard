@@ -50,7 +50,7 @@ def display_page(pathname, query_string):
                 "page": lambda: student_enrolment_timeseries(),
             },
             "/HE-performance-indicators": {
-                "title": "HE performance indications",
+                "title": "HE performance indicators",
                 "page": lambda: he_performance_indicators(),
             },
         }

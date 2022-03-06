@@ -61,7 +61,8 @@ def update_student_enrolment_timeseries(selected_university=None):
             REFColumns.QUALITY_WEIGHTED_VOLUME_Z.value,
             REFColumns.QUALITY_SCORE_Z.value,
         ],
-        name_column = REFColumns.HE_PROVIDER_NAME.value
+        name_column = REFColumns.HE_PROVIDER_NAME.value,
+        selected_unis = [selected_university]
     )
 
     return [graph(element_id="performance-indicators-vis", figure=visualisation)]
