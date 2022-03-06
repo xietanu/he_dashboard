@@ -1,0 +1,155 @@
+Institution code (UKPRN),Institution name,Total quality weighted volume,FTE Category A staff submitted,Quality score,Quality score - Z score,Total quality weighted volume - Z score
+10000291,Anglia Ruskin University,22.4,168.4,0.51,-0.88,-0.48
+10000385,Arts University Bournemouth,1.5,12.1,0.53,-0.77,-0.59
+10000571,Bath Spa University,13.7,74.0,0.6,-0.36,-0.52
+10000824,Bournemouth University,35.4,161.8,0.62,-0.23,-0.41
+10000886,University of Brighton,56.9,209.5,0.71,0.27,-0.29
+10000961,Brunel University London,120.1,576.6,0.66,-0.02,0.04
+10000975,Buckinghamshire New University,2.8,24.0,0.46,-1.2,-0.58
+10001143,Canterbury Christ Church University,18.1,137.0,0.51,-0.88,-0.5
+10001282,University of Northumbria at Newcastle,75.2,342.7,0.64,-0.14,-0.2
+10001478,City University London,110.2,378.3,0.78,0.69,-0.01
+10001726,Coventry University,31.9,152.9,0.65,-0.07,-0.43
+10001883,De Montfort University,46.2,218.2,0.61,-0.31,-0.35
+10002681,Glasgow School of Art,13.7,52.8,0.66,-0.0,-0.52
+10002718,Goldsmiths' College,67.6,238.4,0.72,0.34,-0.24
+10003270,Imperial College London,577.8,1256.9,0.91,1.46,2.46
+10003324,Institute of Cancer Research,49.8,103.1,0.92,1.51,-0.33
+10003614,University of Winchester,9.7,72.6,0.52,-0.86,-0.54
+10003645,King's College London,563.6,1369.0,0.87,1.19,2.39
+10003678,Kingston University,30.2,138.6,0.63,-0.19,-0.44
+10003861,Leeds Beckett University,24.1,201.4,0.43,-1.37,-0.47
+10003863,Leeds Trinity University,1.6,20.1,0.34,-1.86,-0.59
+10003956,Liverpool Hope University,12.9,112.4,0.46,-1.18,-0.53
+10003957,Liverpool John Moores University,57.9,242.6,0.69,0.16,-0.29
+10003958,Liverpool School of Tropical Medicine,12.2,35.2,0.81,0.84,-0.53
+10004048,London Metropolitan University,13.3,80.2,0.57,-0.55,-0.52
+10004063,London School of Economics and Political Science,252.1,532.2,0.89,1.31,0.74
+10004078,London South Bank University,14.7,101.6,0.58,-0.5,-0.52
+10004113,Loughborough University,190.9,645.6,0.76,0.59,0.42
+10004180,Manchester Metropolitan University,68.7,312.7,0.68,0.11,-0.23
+10004351,Middlesex University,51.5,271.8,0.64,-0.14,-0.32
+10004775,Norwich University of the Arts,1.7,7.4,0.58,-0.49,-0.59
+10004797,Nottingham Trent University,48.5,245.9,0.6,-0.38,-0.34
+10004930,Oxford Brookes University,55.0,269.5,0.63,-0.21,-0.3
+10005337,Queen Margaret University Edinburgh,8.9,42.7,0.62,-0.23,-0.55
+10005343,Queen's University Belfast,260.8,868.1,0.78,0.68,0.79
+10005500,Robert Gordon University,13.4,101.6,0.49,-1.03,-0.52
+10005523,Rose Bruford College,0.8,5.9,0.62,-0.25,-0.59
+10005545,Royal Agricultural University,0.4,12.0,0.15,-2.98,-0.59
+10005553,"Royal Holloway, University of London",129.3,378.1,0.82,0.93,0.09
+10005561,Royal Conservatoire of Scotland,4.3,14.8,0.72,0.33,-0.57
+10005700,SRUC,22.9,57.4,0.76,0.58,-0.47
+10005790,Sheffield Hallam University,53.6,226.2,0.69,0.15,-0.31
+10006022,Southampton Solent University,1.8,35.6,0.34,-1.87,-0.59
+10006299,Staffordshire University,9.1,80.8,0.46,-1.2,-0.55
+10006427,University for the Creative Arts,4.8,20.8,0.69,0.14,-0.57
+10006566,The University of West London,2.9,35.7,0.37,-1.69,-0.58
+10006840,University of Birmingham,354.0,1065.3,0.83,0.98,1.28
+10006841,University of Bolton,4.8,49.1,0.41,-1.47,-0.57
+10006842,University of Liverpool,246.2,759.8,0.82,0.91,0.71
+10007114,University of the Highlands and Islands,14.6,68.1,0.72,0.33,-0.52
+10007137,University of Chichester,9.6,51.7,0.53,-0.77,-0.54
+10007138,University of Northampton,8.0,94.2,0.37,-1.71,-0.55
+10007139,University of Worcester,9.8,104.5,0.45,-1.27,-0.54
+10007140,Birmingham City University,26.1,121.9,0.65,-0.06,-0.46
+10007141,University of Central Lancashire,37.9,247.0,0.55,-0.64,-0.39
+10007143,University of Durham,268.0,740.4,0.84,1.05,0.82
+10007144,University of East London,28.7,129.4,0.65,-0.08,-0.44
+10007145,University of Gloucestershire,8.2,56.1,0.51,-0.88,-0.55
+10007146,University of Greenwich,27.1,201.5,0.48,-1.06,-0.45
+10007147,University of Hertfordshire,34.7,191.6,0.61,-0.33,-0.41
+10007148,University of Huddersfield,47.7,233.7,0.62,-0.23,-0.34
+10007149,University of Hull,74.1,355.5,0.65,-0.1,-0.2
+10007150,University of Kent,176.2,591.3,0.75,0.52,0.34
+10007151,University of Lincoln,32.6,177.3,0.58,-0.48,-0.42
+10007152,University of Bedfordshire,28.0,152.8,0.54,-0.73,-0.45
+10007154,University of Nottingham,491.5,1404.4,0.82,0.92,2.01
+10007155,University of Portsmouth,62.8,281.9,0.67,0.02,-0.26
+10007156,University of Salford,41.2,242.4,0.58,-0.48,-0.38
+10007157,University of Sheffield,386.9,1043.1,0.87,1.18,1.45
+10007158,University of Southampton,407.2,1113.0,0.86,1.13,1.56
+10007159,University of Sunderland,15.0,147.2,0.4,-1.54,-0.52
+10007160,University of Surrey,131.7,458.8,0.79,0.75,0.1
+10007161,Teesside University,14.8,87.2,0.63,-0.19,-0.52
+10007162,"University of the Arts, London",38.6,109.7,0.85,1.07,-0.39
+10007163,University of Warwick,367.0,930.7,0.87,1.23,1.35
+10007164,"University of the West of England, Bristol",64.1,299.3,0.64,-0.11,-0.26
+10007165,University of Westminster,50.8,210.1,0.66,-0.02,-0.33
+10007166,University of Wolverhampton,22.3,169.8,0.48,-1.1,-0.48
+10007167,University of York,243.5,642.9,0.85,1.06,0.69
+10007657,Writtle College,0.4,12.4,0.42,-1.44,-0.59
+10007713,York St John University,6.7,68.2,0.4,-1.52,-0.56
+10007759,Aston University,65.6,199.4,0.79,0.76,-0.25
+10007760,Birkbeck College,101.7,327.8,0.76,0.54,-0.06
+10007761,Courtauld Institute of Art,17.1,32.5,0.96,1.73,-0.5
+10007762,Glasgow Caledonian University,30.2,153.0,0.64,-0.13,-0.44
+10007764,Heriot-Watt University,113.5,352.4,0.84,1.0,0.01
+10007765,Heythrop College,4.0,15.8,0.63,-0.18,-0.57
+10007767,Keele University,71.3,266.9,0.73,0.38,-0.22
+10007768,Lancaster University,216.3,579.8,0.84,1.04,0.55
+10007769,London Business School,49.4,98.8,0.87,1.22,-0.33
+10007771,London School of Hygiene & Tropical Medicine,129.5,313.7,0.8,0.8,0.09
+10007772,Edinburgh Napier University,16.4,98.9,0.58,-0.47,-0.51
+10007773,Open University,106.7,396.2,0.74,0.43,-0.03
+10007774,University of Oxford,1115.0,2409.3,0.88,1.28,5.31
+10007775,Queen Mary University of London,252.7,670.8,0.87,1.22,0.74
+10007776,Roehampton University,39.3,149.0,0.69,0.17,-0.39
+10007777,Royal College of Art,22.4,59.6,0.82,0.91,-0.48
+10007778,Royal College of Music,5.0,14.4,0.77,0.61,-0.57
+10007779,Royal Veterinary College,38.1,103.5,0.81,0.88,-0.39
+10007780,School of Oriental and African Studies,62.5,234.2,0.7,0.19,-0.26
+10007782,"St.George's, University of London",17.7,55.7,0.7,0.23,-0.5
+10007783,University of Aberdeen,175.9,597.2,0.77,0.65,0.34
+10007784,University College London,1078.0,2565.6,0.84,1.04,5.11
+10007785,University of Bradford,36.2,123.7,0.77,0.6,-0.4
+10007786,University of Bristol,435.7,1137.7,0.85,1.06,1.71
+10007788,University of Cambridge,950.9,2087.6,0.88,1.28,4.44
+10007789,University of East Anglia,157.8,455.1,0.84,1.02,0.24
+10007790,University of Edinburgh,685.3,1753.1,0.84,1.04,3.03
+10007791,University of Essex,112.6,339.0,0.79,0.73,0.0
+10007792,University of Exeter,248.2,736.2,0.83,0.99,0.72
+10007793,University of South Wales,20.0,117.0,0.55,-0.68,-0.49
+10007794,University of Glasgow,382.1,1099.4,0.83,0.95,1.43
+10007795,University of Leeds,413.3,1149.1,0.84,1.04,1.59
+10007796,University of Leicester,182.9,671.6,0.77,0.64,0.37
+10007798,University of Manchester,588.1,1561.2,0.84,1.03,2.52
+10007799,Newcastle University,307.9,888.0,0.8,0.82,1.03
+10007800,University of the West of Scotland,15.0,118.2,0.5,-0.93,-0.52
+10007801,University of Plymouth,80.0,366.1,0.68,0.1,-0.17
+10007802,University of Reading,186.6,590.0,0.79,0.77,0.39
+10007803,University of St Andrews,186.3,518.7,0.83,0.99,0.39
+10007804,University of Stirling,89.6,300.9,0.75,0.53,-0.12
+10007805,University of Strathclyde,181.2,558.0,0.81,0.84,0.36
+10007806,University of Sussex,158.9,500.8,0.78,0.67,0.25
+10007807,University of Ulster,129.4,448.7,0.74,0.47,0.09
+10007811,Bishop Grosseteste University,0.9,11.0,0.35,-1.8,-0.59
+10007812,University of London Institute in Paris,0.1,3.0,0.47,-1.14,-0.59
+10007814,Cardiff University,308.1,737.7,0.88,1.28,1.04
+10007816,Royal Central School of Speech and Drama,7.9,21.2,0.74,0.43,-0.55
+10007822,Cranfield University,71.8,223.8,0.81,0.86,-0.21
+10007823,Edge Hill University,17.0,138.5,0.49,-1.01,-0.5
+10007825,Guildhall School of Music & Drama,3.6,16.0,0.62,-0.24,-0.58
+10007832,Newman University,2.2,23.3,0.39,-1.6,-0.58
+10007833,Glyndŵr University,3.0,33.9,0.43,-1.35,-0.58
+10007835,Royal Academy of Music,3.4,13.9,0.64,-0.12,-0.58
+10007837,Royal Northern College of Music,3.9,10.8,0.77,0.64,-0.57
+10007842,University of Cumbria,2.6,26.8,0.36,-1.78,-0.58
+10007843,"St Mary's University, Twickenham",5.6,44.9,0.46,-1.19,-0.57
+10007848,University of Chester,13.1,138.4,0.4,-1.53,-0.53
+10007849,University of Abertay Dundee,6.4,66.5,0.37,-1.7,-0.56
+10007850,University of Bath,169.8,461.5,0.88,1.29,0.3
+10007851,University of Derby,9.8,106.8,0.39,-1.62,-0.54
+10007852,University of Dundee,133.6,395.8,0.77,0.64,0.11
+10007854,Cardiff Metropolitan University,10.7,35.0,0.81,0.86,-0.54
+10007855,Swansea University,128.2,369.7,0.82,0.88,0.08
+10007856,Aberystwyth University,84.5,316.8,0.7,0.23,-0.15
+10007857,Bangor University,71.8,233.0,0.79,0.74,-0.21
+10007858,University of Wales Trinity Saint David,6.3,40.4,0.52,-0.86,-0.56
+10008010,Stranmillis University College,1.0,5.0,0.61,-0.31,-0.59
+10008017,Trinity Laban Conservatoire of Music and Dance,2.8,11.6,0.74,0.44,-0.58
+10008026,St Mary's University College,0.0,3.0,0.0,-3.87,-0.6
+10008574,University of Wales,3.5,12.4,0.69,0.16,-0.58
+10008640,Falmouth University,5.0,50.4,0.37,-1.73,-0.57
+10040812,Harper Adams University,2.9,17.0,0.56,-0.6,-0.58
+ZZZZZZZZ,Institute of Zoology,6.5,20.9,0.9,1.38,-0.56
