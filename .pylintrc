@@ -62,9 +62,6 @@ suggestion-mode=yes
 # active Python interpreter and may run arbitrary code.
 unsafe-load-any-extension=no
 
-
-init-hook='import sys; sys.path.append("D:/Dropbox/Python/HE_Dashboard")'
-
 [MESSAGES CONTROL]
 
 # Only show warnings with the listed confidence levels. Leave empty to show
@@ -88,7 +85,8 @@ disable=raw-checker-failed,
         useless-suppression,
         deprecated-pragma,
         use-symbolic-message-instead,
-        abstract-method
+        abstract-method,
+        import-error
 
 # Enable the message, report, category or checker with the given id(s). You can
 # either give multiple identifier separated by comma (,) or put this option
