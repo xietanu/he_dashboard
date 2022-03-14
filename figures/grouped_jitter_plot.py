@@ -20,18 +20,13 @@ def grouped_jitter_plot(
 
     fig = go.Figure()
     fig.add_trace(
-        go.Box(
-            x=unselected_unis_df[value_column],
-            y=unselected_unis_df[metrics_column],
-            jitter=1,
-            boxpoints="all",
-            fillcolor="rgba(0,0,0,0)",
-            line={"width": 0},
-            pointpos=0,
-            orientation="h",
-            text=unselected_unis_df[name_column],
-            marker={"color": VisColours.PRIMARY.value, "opacity": 0.4},
-            hoveron="points",
+        create_jitter_trace(
+            unselected_unis_df,
+            name_column,
+            metrics_column,
+            value_column,
+            colour=VisColours.PRIMARY.value,
+            opacity=0.4,
         )
     )
 
@@ -41,22 +36,13 @@ def grouped_jitter_plot(
             & (dataframe[name_column] == selected_uni)
         ]
         fig.add_trace(
-            go.Box(
-                x=selected_uni_df[value_column],
-                y=selected_uni_df[metrics_column],
-                jitter=0,
-                boxpoints="all",
-                fillcolor="rgba(0,0,0,0)",
-                line={"width": 0},
-                pointpos=0,
-                orientation="h",
-                text=selected_uni_df[name_column],
-                marker={
-                    "color": VisColours.COLOURFUL_SERIES.value[color + 1],
-                    "opacity": 1,
-                    "size": 10,
-                },
-                hoveron="points",
+            create_jitter_trace(
+                selected_uni_df,
+                name_column,
+                metrics_column,
+                value_column,
+                colour=VisColours.COLOURFUL_SERIES.value[color + 1],
+                opacity=1,
             )
         )
 
@@ -76,3 +62,20 @@ def grouped_jitter_plot(
     )
 
     return fig
+
+
+def create_jitter_trace(df, name_column, metrics_column, value_column, colour, opacity):
+    return go.Box(
+        x=df[value_column],
+        y=df[metrics_column],
+        text=df[name_column],
+        marker={"color": colour, "opacity": opacity},
+        jitter=1,
+        boxpoints="all",
+        fillcolor="rgba(0,0,0,0)",
+        line={"width": 0},
+        pointpos=0,
+        orientation="h",
+        hoveron="points",
+        showlegend=False,
+    )

@@ -1,0 +1,51 @@
+name: Merge branch to main
+on: pull_request
+
+jobs:
+    format-check:
+        name: 'Check code formatting'
+        runs-on: ubuntu-latest
+        defaults:
+            run:
+                shell: bash -l {0}
+        steps:
+            - uses: actions/checkout@v2
+            - uses: conda-incubator/setup-miniconda@v2
+              with:
+                auto-update-conda: true
+                activate-environment: he_dashboard
+                environment-file: environment.yml
+            - name: Run formater
+              run: black --check ./
+
+    linting-check:
+        name: 'Check code for linting errors'
+        runs-on: ubuntu-latest
+        defaults:
+            run:
+                shell: bash -l {0}
+        steps:
+            - uses: actions/checkout@v2
+            - uses: conda-incubator/setup-miniconda@v2
+              with:
+                auto-update-conda: true
+                activate-environment: he_dashboard
+                environment-file: environment.yml
+            - name: Run linter
+              run: pylint $(pwd)
+
+    testing:
+        name: 'Running tests'
+        runs-on: ubuntu-latest
+        defaults:
+            run:
+                shell: bash -l {0}
+        steps:
+            - uses: actions/checkout@v2
+            - uses: conda-incubator/setup-miniconda@v2
+              with:
+                auto-update-conda: true
+                activate-environment: he_dashboard
+                environment-file: environment.yml
+            - name: Execute tests
+              run: python -u -m pytest tests
