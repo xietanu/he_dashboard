@@ -36,22 +36,21 @@ app.layout = html.Div(
 @app.callback(
     Output("page-content", "children"),
     Input("url", "pathname"),
-    Input("url", "search"),
 )
-def display_page(pathname, query_string):
+def display_page(pathname):
     """Show the user the correct page for the given path"""
     try:
         paths = {
             "/": {
-                "page": lambda: student_enrolment_timeseries(),
+                "page": student_enrolment_timeseries,
             },
             "/student-enrolment-timeseries": {
                 "title": "Student enrolments",
-                "page": lambda: student_enrolment_timeseries(),
+                "page": student_enrolment_timeseries,
             },
             "/HE-performance-indicators": {
                 "title": "HE performance indicators",
-                "page": lambda: he_performance_indicators(),
+                "page": he_performance_indicators,
             },
         }
 

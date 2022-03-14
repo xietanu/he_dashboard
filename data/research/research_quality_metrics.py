@@ -24,7 +24,9 @@ def extract_research_quality_metrics():
         if x.isnumeric()
         else 0,
     }
-    ref_2014_table = read_csv("data/research/raw/REF2014.csv", skiprows=7, converters=converters)
+    ref_2014_table = read_csv(
+        "data/research/raw/REF2014.csv", skiprows=7, converters=converters
+    )
 
     add_research_quality_metrics(ref_2014_table)
 
