@@ -18,7 +18,6 @@ def nav_sidebar(links):
     return html.Nav(
         html.Ul(
             links,
-            className="nav_sidebar_items",
         ),
         role="navigation",
         className="nav_sidebar",
@@ -34,5 +33,5 @@ def nav_sidebar_link(text: str, href: str, active=False):
             href=href,
             className="nav_sidebar_link",
         ),
-        className="nav_sidebar_item" + (" nav_sidebar_active_item" if active else ""),
+        className="active_item" if active else "",
     )

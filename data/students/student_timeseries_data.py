@@ -1,7 +1,7 @@
 """Takes the data from the raw tables and processes it for use in the student timeseries data"""
 from pandas import read_csv
 
-from columns import StudentColumns
+from columns import StudentColumns #pylint: disable=import-error
 
 
 def extract_student_timeseries_data():

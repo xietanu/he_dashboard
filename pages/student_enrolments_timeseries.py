@@ -1,7 +1,7 @@
 """
 A dashboard page showing a timeseries of student enrolments at universities
 """
-from dash import Input, Output, dcc
+from dash import Input, Output
 from pandas import read_csv
 
 from components.card import card
