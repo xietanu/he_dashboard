@@ -1,14 +1,19 @@
 """Components for a navigation sidebar"""
 
 from dash import html, dcc
+from components.page_storage_and_lookup import PageStorageAndLookup
+from components.page import Page
 
 
-def generate_nav_sidebar(paths, current_path):
+def generate_nav_sidebar(
+    dashboard_pages: PageStorageAndLookup, current_page: Page, query_string: str
+) -> html.Nav:
     """Generate the nav sidebar with links to the pages in the dashboard"""
     links = [
-        nav_sidebar_link(path["title"], key, active=key == current_path)
-        for key, path in paths.items()
-        if key != "/"
+        nav_sidebar_link(
+            page.title, page.url_path + query_string, active=page is current_page
+        )
+        for page in dashboard_pages.get_pages()
     ]
     return nav_sidebar(links)
 
