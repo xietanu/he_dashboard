@@ -2,7 +2,6 @@
 from components.filter import Filter
 from components.filter_panel import filter_panel
 from components.main import main
-from util.he_data import HEData
 from util.query_string import query_string_to_kwargs
 
 
@@ -13,7 +12,6 @@ class Page:
         self,
         title: str,
         url_path: str,
-        data: HEData,
         html_template: list,
         filters: list[Filter] = None,
     ) -> None:
@@ -21,7 +19,6 @@ class Page:
         self.url_path = url_path
         self.filters = filters if filters else []
         self.html_template = html_template
-        self.data = data
 
     def get_url_path(self):
         return self.url_path

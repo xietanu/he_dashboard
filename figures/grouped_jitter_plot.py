@@ -49,6 +49,7 @@ def grouped_jitter_plot(
     fig.update_layout(
         paper_bgcolor="rgba(0,0,0,0)",
         plot_bgcolor="rgba(0,0,0,0)",
+        xaxis={"showgrid": False},
         yaxis={"showgrid": False},
     )
 
