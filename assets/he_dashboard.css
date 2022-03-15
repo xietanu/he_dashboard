@@ -69,7 +69,8 @@ body {
 }
 
 .nav_sidebar {
-    flex: 0 0 250px;
+    flex: 0 0 220px;
+    width: 220px;
 }
 
 .nav_sidebar ul {
