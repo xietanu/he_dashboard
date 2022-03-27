@@ -2,12 +2,14 @@
 from dash import html
 
 
-def main(children):
+def main(children: list) -> html.Main:
     """
     Wrapper for the main content of the dashboard, containing visualisations.
-    https://developer.mozilla.org/en-US/docs/Web/HTML/Element/main
-    Using semantic HTML elements makes it easier for users with accessibility issues to
-    interpret webpages using assistive devices.
-    See https://developer.mozilla.org/en-US/docs/Learn/Accessibility/HTML for more guidance.
+
+    Args:
+        children (list): List of the elements contained on the page. Usually card rows.
+
+    Returns:
+        html.Main: The HTML <main> element.
     """
     return html.Main(children, className="main", id="main-content", role="main")
