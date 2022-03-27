@@ -17,7 +17,7 @@ from data.research.columns import REFColumns
 from data.students.columns import StudentColumns
 from pages.update_performance_indicators_page import update_performance_indicators_page
 from pages.update_student_timeseries_page import update_student_timeseries_page
-from util.he_data import HEData
+from util.he_data import HEData, HEDataColumn
 from util.query_string import kwargs_to_query_string
 
 app.title = "Higher Education in the UK"
@@ -66,8 +66,10 @@ dashboard_pages.add_pages(
             update_function=update_student_timeseries_page,
             data=HEData(
                 pd.read_csv("data/students/student_timeseries_data.csv"),
-                academic_year_column=StudentColumns.ACADEMIC_YEAR.value,
-                provider_column=StudentColumns.HE_PROVIDER_NAME.value,
+                column_lookup={
+                    StudentColumns.ACADEMIC_YEAR.value: HEDataColumn.ACADEMIC_YEAR.value,
+                    StudentColumns.HE_PROVIDER_NAME.value: HEDataColumn.PROVIDER_NAME.value,
+                },
             ),
         ),
         Page(
