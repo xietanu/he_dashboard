@@ -82,8 +82,9 @@ dashboard_pages.add_pages(
             update_function=update_performance_indicators_page,
             data=HEData(
                 pd.read_csv("data/research/research_quality_metrics.csv"),
-                academic_year_column=None,
-                provider_column=REFColumns.HE_PROVIDER_NAME.value,
+                column_lookup={
+                    REFColumns.HE_PROVIDER_NAME.value: HEDataColumn.PROVIDER_NAME.value,
+                },
             ),
         ),
     ]
