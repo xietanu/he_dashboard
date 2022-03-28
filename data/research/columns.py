@@ -25,3 +25,5 @@ class REFColumns(Enum):
     QUALITY_WEIGHTED_VOLUME_Z = "Total quality weighted volume - Z score"
     QUALITY_SCORE = "Quality score"
     QUALITY_SCORE_Z = "Quality score - Z score"
+    METRIC = "Metric"
+    VALUE = "Value"

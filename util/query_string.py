@@ -27,5 +27,9 @@ def query_string_to_kwargs(query_string: str) -> dict:
     for key_value_pair in key_value_pairs:
         if "=" in key_value_pair:
             key, value = key_value_pair.split("=")
-            output[key] = value.replace("+", " ")
+            if value == "None":
+                value = None
+            else:
+                value = value.replace("+", " ")
+            output[key] = value
     return output
