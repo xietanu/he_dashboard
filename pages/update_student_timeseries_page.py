@@ -1,6 +1,5 @@
 """update_student_timeseries_page function"""
 from components.graph import graph
-from data.students.columns import StudentColumns
 from figures.timeseries import timeseries
 from util.he_data import HEData, HEDataColumn
 

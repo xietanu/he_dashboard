@@ -80,7 +80,9 @@ def extract_research_quality_metrics():
         .sort_values(by=REFColumns.HE_PROVIDER_CODE.value, ignore_index=True)
     )
 
-    ref_2014_table_output.to_csv("data/research/research_quality_metrics.csv",index=False)
+    ref_2014_table_output.to_csv(
+        "data/research/research_quality_metrics.csv", index=False
+    )
 
 
 def calc_avg_quality_score_per_uni(dataframe):

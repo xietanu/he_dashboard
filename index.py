@@ -18,7 +18,7 @@ from data.students.columns import StudentColumns
 from pages.update_performance_indicators_page import update_performance_indicators_page
 from pages.update_student_timeseries_page import update_student_timeseries_page
 from util.float_like import float_like
-from util.he_data import HEData, HEDataColumn
+from util.he_data import HEData
 from util.query_string import kwargs_to_query_string
 
 app.title = "Higher Education in the UK"
@@ -40,7 +40,7 @@ HE_provider_filter = Dropdown(
     title="Select HE provider",
     filter_id="selected_university",
     options=[
-        {"label": row[1], "value": str(int(row[0])) if float_like(row[0]) else 'x'}
+        {"label": row[1], "value": str(int(row[0])) if float_like(row[0]) else "x"}
         for _, row in pd.read_csv("data/students/student_timeseries_data.csv")[
             [
                 StudentColumns.HE_PROVIDER_CODE.value,
