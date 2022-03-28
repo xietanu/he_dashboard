@@ -17,4 +17,4 @@ def extract_student_timeseries_data():
         .drop([StudentColumns.COUNTRY.value, StudentColumns.REGION.value], axis=1)
         .copy()
     )
-    output.to_csv("data/students/student_timeseries_data.csv")
+    output.to_csv("data/students/student_timeseries_data.csv",index=False)

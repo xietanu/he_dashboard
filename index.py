@@ -17,6 +17,7 @@ from data.research.columns import REFColumns
 from data.students.columns import StudentColumns
 from pages.update_performance_indicators_page import update_performance_indicators_page
 from pages.update_student_timeseries_page import update_student_timeseries_page
+from util.float_like import float_like
 from util.he_data import HEData, HEDataColumn
 from util.query_string import kwargs_to_query_string
 
@@ -35,18 +36,21 @@ app.layout = html.Div(
     ]
 )
 
-he_providers = (
-    pd.read_csv("data/students/student_timeseries_data.csv")[
-        StudentColumns.HE_PROVIDER_NAME.value
-    ]
-    .sort_values()
-    .unique()
-)
-
 HE_provider_filter = Dropdown(
     title="Select HE provider",
     filter_id="selected_university",
-    options=list(he_providers),
+    options=[
+        {"label": row[1], "value": str(int(row[0])) if float_like(row[0]) else 'x'}
+        for _, row in pd.read_csv("data/students/student_timeseries_data.csv")[
+            [
+                StudentColumns.HE_PROVIDER_CODE.value,
+                StudentColumns.HE_PROVIDER_NAME.value,
+            ]
+        ]
+        .sort_values(by=StudentColumns.HE_PROVIDER_NAME.value)
+        .drop_duplicates()
+        .iterrows()
+    ],
     default_value=None,
 )
 
@@ -66,10 +70,11 @@ dashboard_pages.add_pages(
             update_function=update_student_timeseries_page,
             data=HEData(
                 pd.read_csv("data/students/student_timeseries_data.csv"),
-                column_lookup={
-                    StudentColumns.ACADEMIC_YEAR.value: HEDataColumn.ACADEMIC_YEAR.value,
-                    StudentColumns.HE_PROVIDER_NAME.value: HEDataColumn.PROVIDER_NAME.value,
-                },
+                ACADEMIC_YEAR=StudentColumns.ACADEMIC_YEAR.value,
+                PROVIDER_NAME=StudentColumns.HE_PROVIDER_NAME.value,
+                PROVIDER_CODE=StudentColumns.HE_PROVIDER_CODE.value,
+                METRIC=StudentColumns.LEVEL_OF_STUDY.value,
+                VALUE=StudentColumns.NUMBER.value,
             ),
         ),
         Page(
@@ -82,9 +87,10 @@ dashboard_pages.add_pages(
             update_function=update_performance_indicators_page,
             data=HEData(
                 pd.read_csv("data/research/research_quality_metrics.csv"),
-                column_lookup={
-                    REFColumns.HE_PROVIDER_NAME.value: HEDataColumn.PROVIDER_NAME.value,
-                },
+                PROVIDER_NAME=REFColumns.HE_PROVIDER_NAME.value,
+                PROVIDER_CODE=REFColumns.HE_PROVIDER_CODE.value,
+                METRIC=REFColumns.METRIC.value,
+                VALUE=REFColumns.VALUE.value,
             ),
         ),
     ]

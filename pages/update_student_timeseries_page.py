@@ -20,15 +20,15 @@ def update_student_timeseries_page(data: HEData, selected_university: str) -> li
     dataframe = data.get_dataframe(providers=selected_university)
 
     dataframe = dataframe.groupby(
-        by=[HEDataColumn.ACADEMIC_YEAR.value, StudentColumns.LEVEL_OF_STUDY.value],
+        by=[HEDataColumn.ACADEMIC_YEAR.value, HEDataColumn.METRIC.value],
         as_index=False,
-    )[StudentColumns.NUMBER.value].sum()
+    )[HEDataColumn.VALUE.value].sum()
 
     visualisation = timeseries(
         dataframe,
         HEDataColumn.ACADEMIC_YEAR.value,
-        StudentColumns.NUMBER.value,
-        StudentColumns.LEVEL_OF_STUDY.value,
+        HEDataColumn.VALUE.value,
+        HEDataColumn.METRIC.value,
     )
 
     return [graph(element_id="student-enrolment-timeseries", figure=visualisation)]
