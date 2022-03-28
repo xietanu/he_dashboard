@@ -1,5 +1,6 @@
 """float_like function"""
 
+
 def float_like(x, /) -> bool:
     """
     Tests if an object could be converted to a float.
